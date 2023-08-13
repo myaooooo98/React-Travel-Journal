@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+
+section {
+    padding: 36px 40px;
+}
+
+nav {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+}
+
+.navbar--logo {
+    margin-right: 10px;
+    width: 24px;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+    margin: 15px 0;
+}
+
+.card--content {
+    display: flex;
+    align-items: center;
+}
+
+.card--img {
+    width: 165px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.card--text {
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--mapper {
+    width: 7px;
+}
+
+.card--location {
+    letter-spacing: 0.17em;
+    margin: 0 4px;
+}
+
+a {
+    color: #918E9B;
+    margin: 0 8px;
+}
+
+a:hover {
+    color: #2B283A;
+}
+
+.card--title {
+    margin: 7px 0;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.card--date {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.card--desc {
+    line-height: 15px;
+    margin: 9px 0 0;
+}
